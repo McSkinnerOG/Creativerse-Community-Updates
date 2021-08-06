@@ -285,26 +285,32 @@ namespace Creativerse_Gloves.Patches
 			if (Player.Local.Equipment._slots[4].ProtoItem.Name == "focus_stone")
 			{
 				ReachSM = "4";
+				ReachTP = "10";
 			}
 			if (Player.Local.Equipment._slots[4].ProtoItem.Name == "focus_obsidian")
 			{
 				ReachSM = "5";
+				ReachTP = "12";
 			}
 			if (Player.Local.Equipment._slots[4].ProtoItem.Name == "focus_iron")
 			{
 				ReachSM = "7";
+				ReachTP = "14";
 			}
 			if (Player.Local.Equipment._slots[4].ProtoItem.Name == "focus_diamond")
 			{
 				ReachSM = "8";
+				ReachTP = "16";
 			}
 			if (Player.Local.Equipment._slots[4].ProtoItem.Name == "focus_lumite")
 			{
 				ReachSM = "11";
+				ReachTP = "18";
 			}
-			if (Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_lumite" || Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_diamond" || Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_iron" || Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_obsidian" || Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_stone")
+			if (Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_lumite" && Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_diamond" && Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_iron" && Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_obsidian" && Player.Local.Equipment._slots[4].ProtoItem.Name != "focus_stone")
 			{
 				ReachSM = "4";
+				ReachTP = "10";
 			}
 			return false;
 		}
