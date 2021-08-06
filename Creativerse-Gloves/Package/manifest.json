@@ -1,0 +1,9 @@
+{
+  "name": "Creativerse_Gloves",
+  "description": "This is a Bepinex mod for Muck.",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "dependencies": [
+    "BepInExPack"
+  ]
+}
